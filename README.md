@@ -1,4 +1,4 @@
-# User-Registration-Portal
+# User RegistrationPortal
 ## Project Overview
 This Node.js and Express.js-based project implements a user registration and OTP (One-Time Password) verification system. It ensures secure user registration by validating the user's IP address and sending an OTP to their phone for verification. Once the OTP is verified, the user is registered in the system.
 
