@@ -33,8 +33,10 @@ You can customize the following configurations in the `.env` file:
 - `TWILIO_SID`: Twilio Account SID
 - `TWILIO_AUTH_TOKEN`: Twilio Auth Token
 - `TWILIO_PHONE_NUMBER`: Twilio phone number for sending OTPs
-## Contributing
-Contributions are welcome! Please create a new issue or submit a pull request with your suggestions or improvements.
-## Acknowledgments
-- Thank you to the [ipInfo](https://ipinfo.io/) and [Twilio](https://www.twilio.com/) teams for their APIs.
+  
+## Contact
+If you have any questions or need assistance, feel free to contact us at [kashisharmaujjn@gmail.com].
+
+Thank you for exploring User-Registration project. I hope it empowers you to gain valuable insights from your data!
+Feel free to customize this description further to match the specific features and goals of your project.
 
