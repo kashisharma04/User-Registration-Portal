@@ -6,10 +6,6 @@ require('dotenv').config();
 const {accountSID, authToken, twilioPhone}=process.env
 const Register=require('../models/user')
 
-// twilio setup...
-// AC13661ab6083addb754632b50aea675ea   --> accountSID
-// e2263a6a3bc60bb579aec6ea713ec5aa     --> authToken
-
 // const accountSID=accountSID;
 // const authToken= authToken;
 const client = new twilio(accountSID, authToken)
