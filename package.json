@@ -1,0 +1,28 @@
+{
+  "name": "user-registration-portal",
+  "version": "1.0.0",
+  "description": "This Node.js and Express.js-based project implements a user registration and OTP (One-Time Password) verification system. It ensures secure user registration by validating the user's IP address and sending an OTP to their phone for verification. Once the OTP is verified, the user is registered in the system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashisharma04/User-Registration-Portal.git"
+  },
+  "author": "Kashi Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashisharma04/User-Registration-Portal/issues"
+  },
+  "homepage": "https://github.com/kashisharma04/User-Registration-Portal#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ipinfo": "^1.5.1",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1",
+    "twilio": "^4.17.0"
+  }
+}
