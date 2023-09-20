@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const twilio = require('twilio');
 const ipinfo = require('ipinfo');
 require('dotenv').config();
-const { accountSID, authToken, twilioPhone, MY_TOKEN } = process.env
-const Register = require('../models/user')
+const {accountSID, authToken, twilioPhone}=process.env
+const Register=require('../models/user')
 
 const client = new twilio(accountSID, authToken)
 
@@ -65,4 +65,4 @@ const registerUser = async (req, res) => {
     }
 }
 
-module.exports = registerUser
+module.exports= registerUser
